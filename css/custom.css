@@ -1,0 +1,77 @@
+.btn-primary {
+    color: #fff;
+    background-color: #3e3e3e !important;
+    border-radius: 20px !important;
+    border: solid 0;
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #3e3e3e !important;
+    border-radius: 20px !important;
+    border: solid 0 !important;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%) !important;
+}
+
+.navbar-b.navbar-reduce .nav-link:before {
+    background-color: #ffffff !important;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.readmore {
+    display: inline-block;
+    color: #fff;
+    /* padding: 0 5px 5px; */
+    overflow: hidden;
+    background-color: #1b1a1e;
+    border-radius: solid 0;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.readmore:hover {
+    background-color: #1b1a1e8a;
+    border-radius: solid 0;
+    outline: transparent;
+    border-radius: 8px;
+}
+
+#more {
+    display: none;
+}
+
+button#myBtn {
+    position: absolute;
+    left: 45%;
+    color: white;
+    background-color: #1b1a1e;
+    border-radius: solid 0;
+    outline: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media (min-width: 576px) {
+    .col-sm-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 1 0 66.666667%;
+        max-width: 100%;
+    }
+}
+
+.col-md-12 a {
+    color: white !important;
+}
