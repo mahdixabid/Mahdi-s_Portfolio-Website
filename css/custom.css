@@ -1,3 +1,14 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+* {
+    font-family: 'Comfortaa', cursive !important;
+} */
+
 .btn-primary {
     color: #fff;
     background-color: #3e3e3e !important;
@@ -74,4 +85,55 @@ button#myBtn {
 
 .col-md-12 a {
     color: white !important;
+}
+
+
+/* .mobile {
+    display: none !important;
+} */
+
+@media (min-width: 700px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .pc {
+        display: none;
+    }
+}
+
+.mobile .lead {
+    font-size: 20px;
+}
+
+@media (max-width: 700px) {
+    .bg2 {
+        height: 800px !important;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position-x: -427px;
+        background-position-y: 63px;
+        height: 514px;
+        filter: grayscale(0.7);
+        padding-top: 16px;
+    }
+}
+
+.bg2 {
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: grayscale(1);
+}
+
+.col-sm-3.col-lg-3 {
+    margin-top: 19%;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 40px !important;
+    }
 }
